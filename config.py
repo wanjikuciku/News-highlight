@@ -1,10 +1,12 @@
+import os
+
 class Config:
     '''
     General configuration parent class
     '''
-    NEWS_API_BASE_URL ='https://newsapi.org/v2/sources?language=en&api_key={}'
+    NEWS_API_BASE_URL ='https://newsapi.org/v2/sources?language=en&category={}api_key={}'
     ARTICLES_API_BASE_URL = 'https://newsapi.org/v2/everything?sources={}&apiKey={}'
-
+    API_KEY = os.environ.get("API_KEY")
 
 
 class ProdConfig(Config):
@@ -26,3 +28,8 @@ class DevConfig(Config):
     '''
 
     DEBUG = True
+
+config_options = {
+'development':DevConfig,
+'production':ProdConfig
+}
