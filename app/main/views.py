@@ -24,5 +24,4 @@ def articles(id):
     View a specific source page and its articles
     '''
     articles = get_articles(id)
-    title = f'{id}'
     return render_template('articles.html',id = id, articles = articles)

@@ -90,12 +90,13 @@ def process_articles(articles_list):
     '''
     articles_results = []
     for articles_item in articles_list:
-        title = articles_item.get ('title')
-        description = articles_item.get ('description')
-        image = articles_item.get ('image')
+        id = articles_item.get('id')
         publishedAt = articles_item.get ('publishedAt')
         author = articles_item.get ('author')
+        title = articles_item.get ('title')
+        description = articles_item.get ('description')
         url = articles_item.get ('url')
+        urlToImage = articles_item.get('urlToImage')
         content = articles_item.get('content')
 
     return articles_results
