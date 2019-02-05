@@ -21,9 +21,9 @@ chmod a+x run.py
 None known at the moment.
 
 ## Technologies Used
-Python
-HTML
-BOOTSTRAP
+* Python
+* HTML
+* BOOTSTRAP
 
 
 ## License
