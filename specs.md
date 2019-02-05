@@ -1,1 +1,2 @@
 ## Specifications
+| Behaviour | Input | Output |
