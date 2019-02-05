@@ -1,13 +1,15 @@
 # News Highlight
 A web application that gives various news source and allow users to read articles:https://lony-highlights.herokuapp.com/ by Wanjiku Lorna
+
 ## Description
-This is a python application that helps users generate and store passwords for their accounts.
+A web application that displays various news sources on the homepage. It gives users an option to view the articles displayed and read the full article as well.
+
 
 ## Set-up and Installation
 To start using this project use the following commands:
 
 git clone https://lony-highlights.herokuapp.com/
-cd Pass_locker
+cd News
 atom .
 code .(this is it visual studio is your preferred text editor).
 To run this program
