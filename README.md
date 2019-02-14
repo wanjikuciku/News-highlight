@@ -8,14 +8,33 @@ A web application that displays various news sources on the homepage. It gives u
 ## Set-up and Installation
 To start using this project use the following commands:
 
-* git clone 
+* git clone https://github.com/wanjikuciku/News-highlight.git
 * cd News
 * atom .
-* code .(this is it visual studio is your preferred text editor). To run this program
+* code .(this is it visual studio is your preferred text editor). 
 
-* run this command lines in your terminal:
-* chmod a+x run.py
-* ./start.py
+To run this program
+
+* Create a virtual environment by python3.6 -m venv --without-pip virtual then activate the virtual environment
+
+* Read the specs and requirements files and install all requirements by pip install -r requirements.txt
+
+* create a start.sh file and hide it in gitignore
+
+* Edit the start.sh file with your email account and password and add python3.6 manage.py server so as to serve
+
+* enter the code chmod a+x start.sh then ./start.sh to serve
+
+* access the application on this localhost address http://127.0.0.1:5000
+
+## Specifications
+| Behaviour  | Input   | Output  |
+|------------|---------|---------|
+| View General Category | general sources | Display all sources in the general category, click to view articles and overflow is hidden|
+| View Tech Category | technology sources | Display all sources in the technology category, click to view articles and overflow is hidden |
+| View Business Category | business sources | Display all sources in the business category, click to view articles and overflow is hidden |
+| View Fun category | fun sources | Display all sources in the fun category, click to view articles and overflow is hidden |
+| View Sports Category | sports sources | Display all sources in the sports category, click to view articles and overflow is hidden |
 
 ## Live Demo
 Here is a link to a live demo : https://lony-highlights.herokuapp.com/
