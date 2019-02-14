@@ -1,5 +1,6 @@
 ## Specifications
-| Behaviour | Input | Output |
+| Behaviour  | Input   | Output  |
+|------------|---------|---------|
 | View General Category | general sources | Display all sources in the general category, click to view articles and overflow is hidden|
 | View Tech Category | technology sources | Display all sources in the technology category, click to view articles and overflow is hidden |
 | View Business Category | business sources | Display all sources in the business category, click to view articles and overflow is hidden |

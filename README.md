@@ -8,7 +8,7 @@ A web application that displays various news sources on the homepage. It gives u
 ## Set-up and Installation
 To start using this project use the following commands:
 
-* git clone https://lony-highlights.herokuapp.com/
+* git clone 
 * cd News
 * atom .
 * code .(this is it visual studio is your preferred text editor). To run this program
@@ -16,6 +16,10 @@ To start using this project use the following commands:
 * run this command lines in your terminal:
 * chmod a+x run.py
 * ./start.py
+
+## Live Demo
+Here is a link to a live demo : https://lony-highlights.herokuapp.com/
+
 ## Known Bugs
 None known at the moment.
 
