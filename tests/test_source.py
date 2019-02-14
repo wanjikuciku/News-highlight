@@ -10,7 +10,12 @@ class SourceTest(unittest.TestCase):
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_source,Source))
-
+    
+    def test_to_check_instance_variables(self):
+        self.assertEquals(self.new_source.id, '123')
+        self.assertEquals(self.new_source.name, 'citizen news')
+        self.assertEquals(self.new_source.description, 'Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos')
+        
 
 if __name__ == '__main__':
     unittest.main()
